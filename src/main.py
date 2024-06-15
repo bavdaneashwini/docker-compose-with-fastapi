@@ -9,7 +9,7 @@ r = redis.Redis(host='redis',port=6379)
 
 @app.get("/")
 def read_root():
-    return {"Hello": "Ashwini"}
+    return {"Hello Guys: Lets Learn Docker"}
 
 
 @app.get("/hits")
